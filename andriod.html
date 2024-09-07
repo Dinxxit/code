@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MY FIRST WEBSITE</title>
+    </head>
+<style>
+   body {
+    background-image:url(img/EGS_SaintsRow_DeepSilverVolition_S1_2560x1440-1ba560d3f228fe5c7341777a6ac9abb7.jpeg);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+   }
+   h2 {
+    text-decoration: solid;
+    text-align: center;
+   }
+h4 {
+    text-decoration: double;
+    text-align: center;
+    background-color: rgb(0, 155, 216);
+}
+
+
+
+header { 
+    color:blue;
+    background-color:whitesmoke;
+    text-align: center;
+    font: bolder;
+    font-style: normal;
+    font-family: Impact;
+    text-decoration: solid;
+}
+nav {
+    list-style: none;
+    position: initial;
+    text-align: right;
+
+}
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+nav a {
+ text-decoration: solid;   
+ color: black;
+font-weight: bold;
+
+}
+ol {
+    text-align:center
+}
+p{
+    text-align: center;
+}
+.signup {
+    margin: 5px;
+    border: 20px;
+    color: black;
+   
+     background-color:whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: static;
+}
+.signup form{
+position: absolute;
+align-items: center;
+text-align: center;
+
+}
+
+form#SIGNUP\ FORM {
+    position: static;
+}
+
+
+
+
+</style>
+
+    <!--this is where my stupid body begins-->
+    <body>        <header>
+            <h1> MY WEBSITE DESIGNERS</h1>
+            <nav>
+                <ul> 
+                    <a href="android-arcade.html">HOME</a>
+                    <a href="android-racing.html">CALL US</a>
+                     <a href="android-casual.html">ABOUT</a>
+                </ul>
+            </nav>
+
+        </header>
+        <div class="main container">
+        
+    
+        <h2>A SIGNUP PAGE FOR WEBSITE DESIGNERS</h2>
+        <p>This page is strictly made for website designers and game developers.<br>
+            anyone from all round the world are welcome to join this page.</p>
+
+        <h2>ELIGIBLE PARTICIPANTS</h2>
+        <h2> IF YOU'RE A</h2>
+        <ol>
+            BEGINNER<br>
+        PROFESSIONAL<br>
+    WEBSITE DESIGNER<br>
+GRAPHICS DESIGNER<br>
+FRONT END DEVELOPER<br>
+BACK-END DEVELOPER<br>
+FULL STACK DEVELOPER<br>
+GAME DEVELOPER<br></ol>
+<p>or a pro and you would love to create something inspiring like this</p></div>
+
+
+            <img src="img/com.activision.callofduty.shooter-105001ef-ac25-4862-b16e-75c1de90d7af_512x512.webp" width="211px" height="200px">
+            <img src="img/saints-row-the-third-20111129020221306.jpg" width="243px" height="200px"></a>
+            
+
+
+<div class="signup">
+    <h4>then kindly fill the form below and join other grear designers on board.</h4>
+    <form class="signup" id="SIGNUP FORM" action="/signup">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="put your username here" required><br>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="put your password here" required><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="put your email here" required><br>
+    
+    <label for="gender">Gender:</label>
+    <select> <option> female <option> male <option> bisexual </option></select><br>
+
+    <label for="cv"> cv:</label>
+    <input type="file"><br>
+    <button type="submit">SIGNUP</button><br>
+
+   <p class="have-an-account-sign">
+    <span class="span">Don't have an account? </span><br>
+   
+    <div class="buttons">
+      <a href="index2.html" class="button">SIGN UP</a></div>
+
+   <footer><h4>follow us up on whatsapp <a href="http:api/">meshark</a></h4></footer> 
+</body>
+<script>
+    //extraction stage//
+document.getElementById("username").textContent='';
+document.getElementById("password").textContent='';
+document.getElementById("email").textContent='';
+
+//getting form value//
+var username=document.getElementById("username").value;
+var password=document.getElementById("password").value;
+var email=document.getElementById("email").value;
+
+//validation checks//
+if(username.length<3||username.length>15){
+    document.getElementById("username error").textContent='please put your username here';
+    document.getElementById("password").textContent='please put your password'};
+</script>
+</html>

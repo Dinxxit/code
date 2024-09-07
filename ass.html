@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Downloader</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 9px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 0;
+            border: none;
+            cursor: pointer;
+            background-color: transparent;
+        }
+        .button img {
+            width: 150px; /* Adjust image size as needed */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>App Downloader</h1>
+        <button class="button" onclick="downloadWindowsExe()"><img src="path/to/windows_exe.png" alt="Download Windows EXE"></button>
+        <button class="button" onclick="downloadAndroidApk()"><img src="path/to/android_apk.png" alt="Download Android APK"></button>
+        <button class="button" onclick="downloadOtherApp()"><img src="path/to/other_app.png" alt="Download Other App"></button>
+    </div>
+    <script>
+        function downloadWindowsExe() {
+            let filename = 'app.exe';
+            // Simulating a download link (replace with actual download logic)
+            alert(`Downloading ${filename}`);
+            // Replace with actual download link logic
+            // window.location.href = `/download?file=${filename}`;
+        }
+
+        function downloadAndroidApk() {
+            let filename = 'app.apk';
+            // Simulating a download link (replace with actual download logic)
+            alert(`Downloading ${filename}`);
+            // Replace with actual download link logic
+            // window.location.href = `/download?file=${filename}`;
+        }
+
+        function downloadOtherApp() {
+            let filename = 'app.other';
+            // Simulating a download link (replace with actual download logic)
+            alert(`Downloading ${filename}`);
+            // Replace with actual download link logic
+            // window.location.href = `/download?file=${filename}`;
+        }
+    </script>
+</body>
+</html>
